@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header_c {
+  height: 600px;
+  width: 150%;
+  box-shadow: 2px 3px 2px 3px rgb(208, 128, 255);
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to right,
+    rgb(250, 131, 224),
+    rgb(250, 55, 201),
+    rgb(255, 152, 238)
+  );
+}
+.counter {
+  display: flex;
+  box-shadow: 2px 3px 2px 3px rgb(208, 128, 255);
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(179, 65, 255), rgb(179, 65, 255));
+}
+.btn {
+  width: 100px;
+  padding: 10px;
+  background: linear-gradient(to right, grey, lightgrey, white);
+  margin: 5px;
+  border-style: none;
+  outline: none;
+  border-style: none;
+  text-decoration: none;
+  font-weight: 800;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.btn:hover {
+  width: 110px;
+  padding: 13px;
+  background: linear-gradient(
+    to right,
+    rgb(153, 59, 129),
+    rgb(119, 44, 115),
+    #631a59
+  );
+  margin: 6px;
+  outline: none;
+  border-style: none;
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  box-shadow: 1px 2px 2px 2px rgb(121, 108, 108);
+}
+.num {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  background: #0edbff;
+  border-radius: 20px;
+}
+.inp {
+  padding: 20px;
+  width: 300px;
+  background: rgb(126, 167, 255);
+  border: 2 solid grey;
+  border-style: none;
+  outline: none;
+  transition: all;
+  transition-duration: 0.5s;
+  margin: 5px;
+}
+.inp:hover {
+  padding: 21px;
+  width: 302px;
+  background: lightgrey;
+  border: 2px solid rgb(77, 71, 71);
+  box-shadow: 2px 3px 3px;
+  font-weight: 800;
+}

@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container_s > nav > img {
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+}
